@@ -1,0 +1,219 @@
+Options +FollowSymLinks
+RewriteEngine on
+
+# Министерство внутренних дел Российской Федерации
+# RewriteRule ^mvd.ru(.*)$  https://нси.мвд.рф$1 [R=302,L]
+
+# Министерство Российской Федерации по делам гражданской обороны, чрезвычайным ситуациям и ликвидации последствий стихийных бедствий
+# RewriteRule ^mchs.ru(.*)$  http://ref.mchs.gov.ru$1 [R=302,L]
+
+# Министерство иностранных дел Российской Федерации
+# RewriteRule ^mid.ru(.*)$  http://ref.mid.ru$1 [R=302,L]
+
+# Федеральное агентство по делам Содружества Независимых Государств, соотечественников, проживающих за рубежом, и по международному гуманитарному сотрудничеству
+# RewriteRule ^sng.ru(.*)$  http://ref.rs.gov.ru$1 [R=302,L]
+
+# Министерство обороны Российской Федерации
+# RewriteRule ^mil.ru(.*)$  http://ref.mil.ru$1 [R=302,L]
+
+# Федеральная служба по военно-техническому сотрудничеству
+# RewriteRule ^fsvts.ru(.*)$  http://ref.fsvts.gov.ru$1 [R=302,L]
+
+# Федеральная служба по техническому и экспортному контролю
+# RewriteRule ^fstec.ru(.*)$  http://ref.fstec.ru$1 [R=302,L]
+
+# Министерство юстиции Российской Федерации
+# RewriteRule ^minjust.ru(.*)$  http://ref.minjust.ru$1 [R=302,L]
+
+# Федеральная служба исполнения наказаний
+# RewriteRule ^fsin.ru(.*)$  http://ref.fsin.su$1 [R=302,L]
+
+# Федеральная служба судебных приставов
+RewriteRule ^fssp.ru(.*)$  http://linkeddata.fssprus.ru$1 [R=302,L]
+# https://w3id.org/logd/ru/fssp.ru/resource/agency_03000 => http://linkeddata.fssprus.ru/resource/agency_03000
+
+# Государственная фельдъегерская служба Российской Федерации
+# RewriteRule ^gfs.ru(.*)$  http://ref.gfs.ru$1 [R=302,L]
+
+# Служба внешней разведки Российской Федерации
+# RewriteRule ^svr.ru(.*)$  http://ref.svr.gov.ru$1 [R=302,L]
+
+# Федеральная служба безопасности Российской Федерации
+# RewriteRule ^fsb.ru(.*)$  http://ref.fsb.ru$1 [R=302,L]
+
+# Федеральная служба войск национальной гвардии Российской Федерации
+# RewriteRule ^rosguardia.ru(.*)$  http://ref.rosgvard.ru$1 [R=302,L]
+
+# Федеральная служба охраны Российской Федерации
+# RewriteRule ^fso.ru(.*)$  http://ref.fso.gov.ru$1 [R=302,L]
+
+# Федеральная служба по финансовому мониторингу
+# RewriteRule ^finmonitor.ru(.*)$  http://ref.fedsfm.ru$1 [R=302,L]
+
+# Федеральное архивное агентство
+# RewriteRule ^rosarhiv.ru(.*)$  http://ref.archives.ru$1 [R=302,L]
+
+# Главное управление специальных программ Президента Российской Федерации
+# RewriteRule ^gusp.ru(.*)$  http://ref.gusp.gov.ru$1 [R=302,L]
+
+# Управление делами Президента Российской Федерации
+# RewriteRule ^udp.ru(.*)$  http://ref.udprf.ru$1 [R=302,L]
+
+# Министерство здравоохранения Российской Федерации
+# RewriteRule ^minzdrav.ru(.*)$  http://ref.rosminzdrav.ru$1 [R=302,L]
+
+# Федеральная служба по надзору в сфере здравоохранения
+# RewriteRule ^roszdravnadzor.ru(.*)$  http://ref.roszdravnadzor.ru$1 [R=302,L]
+
+# Федеральное медико-биологическое агентство
+# RewriteRule ^fmba.ru(.*)$  http://ref.fmbaros.ru$1 [R=302,L]
+
+# Министерство культуры Российской Федерации
+# RewriteRule ^minkult.ru(.*)$  http://ref.mkrf.ru$1 [R=302,L]
+
+# Федеральное агентство по туризму
+# RewriteRule ^rosturism.ru(.*)$  http://ref.russiatourism.ru$1 [R=302,L]
+
+# Министерство образования и науки Российской Федерации
+# RewriteRule ^minobr.ru(.*)$  http://нси.минобрнауки.рф$1 [R=302,L]
+
+# Федеральная служба по надзору в сфере образования и науки
+# RewriteRule ^rosobrnadzor.ru(.*)$  http://ref.obrnadzor.gov.ru$1 [R=302,L]
+
+# Федеральное агентство по делам молодежи
+# RewriteRule ^fadm.ru(.*)$  https://ref.fadm.gov.ru$1 [R=302,L]
+
+# Министерство природных ресурсов и экологии Российской Федерации
+# RewriteRule ^minprirody.ru(.*)$  http://ref.mnr.gov.ru$1 [R=302,L]
+
+# Федеральная служба по гидрометеорологии и мониторингу окружающей среды
+# RewriteRule ^rosgidromet.ru(.*)$  http://ref.meteorf.ru$1 [R=302,L]
+
+# Федеральная служба по надзору в сфере природопользования
+# RewriteRule ^rosprirodnadzor.ru(.*)$  http://ref.rpn.gov.ru$1 [R=302,L]
+
+# Федеральное агентство водных ресурсов
+# RewriteRule ^voda.ru.ru(.*)$  http://ref.voda.mnr.gov.ru$1 [R=302,L]
+
+# Федеральное агентство лесного хозяйства
+# RewriteRule ^rosleshoz.ru(.*)$  http://ref.rosleshoz.gov.ru$1 [R=302,L]
+
+# Федеральное агентство по недропользованию
+# RewriteRule ^rosnedra.ru(.*)$  http://ref.rosnedra.gov.ru$1 [R=302,L]
+
+# Министерство промышленности и торговли Российской Федерации
+# RewriteRule ^minpromtorg.ru(.*)$  http://ref.minpromtorg.gov.ru$1 [R=302,L]
+
+# Федеральное агентство по техническому регулированию и метрологии
+# RewriteRule ^rosstandart.ru(.*)$  http://ref.gost.ru$1 [R=302,L]
+
+# Министерство Российской Федерации по развитию Дальнего Востока
+# RewriteRule ^minvostok.ru(.*)$  http://ref.minvostokrazvitia.ru$1 [R=302,L]
+
+# Министерство связи и массовых коммуникаций Российской Федерации
+# RewriteRule ^minsvyaz.ru(.*)$  http://ref.minsvyaz.ru$1 [R=302,L]
+
+# Федеральная служба по надзору в сфере связи, информационных технологий и массовых коммуникаций
+# RewriteRule ^roskomnadzor.ru(.*)$  http://ref.rkn.gov.ru$1 [R=302,L]
+
+# Федеральное агентство по печати и массовым коммуникациям
+# RewriteRule ^fapmc.ru(.*)$  http://ref.fapmc.ru$1 [R=302,L]
+
+# Федеральное агентство связи
+# RewriteRule ^rossvyaz.ru(.*)$  http://ref.rossvyaz.ru$1 [R=302,L]
+
+# Министерство Российской Федерации по делам Северного Кавказа
+# RewriteRule ^minkavkaz.ru(.*)$  http://ref.minkavkaz.gov.ru$1 [R=302,L]
+
+# Министерство сельского хозяйства Российской Федерации
+# RewriteRule ^minselhoz.ru(.*)$  http://ref.mcx.ru$1 [R=302,L]
+
+# Федеральная служба по ветеринарному и фитосанитарному надзору
+# RewriteRule ^fsvps.ru(.*)$  http://ref.fsvps.ru$1 [R=302,L]
+
+# Федеральное агентство по рыболовству
+# RewriteRule ^fish.ru(.*)$  http://ref.fish.gov.ru$1 [R=302,L]
+
+# Министерство спорта Российской Федерации
+# RewriteRule ^minsport.ru(.*)$  http://ref.minsport.gov.ru$1 [R=302,L]
+
+# Министерство строительства и жилищно-коммунального хозяйства Российской Федерации
+# RewriteRule ^minstroy.ru(.*)$  http://ref.minstroyrf.ru$1 [R=302,L]
+
+# Министерство транспорта Российской Федерации
+# RewriteRule ^mintrans.ru(.*)$  http://ref.mintrans.ru$1 [R=302,L]
+
+# Федеральная служба по надзору в сфере транспорта
+# RewriteRule ^rostransnadzor.ru(.*)$  http://ref.rostransnadzor.ru$1 [R=302,L]
+
+# Федеральное агентство воздушного транспорта
+# RewriteRule ^favt.ru(.*)$  http://ref.favt.ru$1 [R=302,L]
+
+# Федеральное дорожное агентство
+# RewriteRule ^rosavtodor.ru(.*)$  http://ref.rosavtodor.ru$1 [R=302,L]
+
+# Федеральное агентство железнодорожного транспорта
+# RewriteRule ^roszheldor.ru(.*)$  http://ref.roszeldor.ru$1 [R=302,L]
+
+# Федеральное агентство морского и речного транспорта
+# RewriteRule ^morflot.ru(.*)$  http://ref.morflot.ru$1 [R=302,L]
+
+# Министерство труда и социальной защиты Российской Федерации
+# RewriteRule ^mintrud.ru(.*)$  http://ref.rosmintrud.ru$1 [R=302,L]
+
+# Федеральная служба по труду и занятости
+# RewriteRule ^rostrud.ru(.*)$  https://ref.rostrud.ru$1 [R=302,L]
+
+# Министерство финансов Российской Федерации
+# RewriteRule ^minfin.ru(.*)$  http://ref.minfin.ru$1 [R=302,L]
+
+# Федеральная налоговая служба
+# RewriteRule ^fns.ru(.*)$  http://ref.nalog.ru$1 [R=302,L]
+
+# Федеральная служба по регулированию алкогольного рынка
+# RewriteRule ^fsrar.ru(.*)$  http://ref.fsrar.ru$1 [R=302,L]
+
+# Федеральная таможенная служба
+# RewriteRule ^fts.ru(.*)$  http://ref.customs.ru$1 [R=302,L]
+
+# Федеральное казначейство
+# RewriteRule ^kazna.ru(.*)$  http://ref.roskazna.ru$1 [R=302,L]
+
+# Министерство экономического развития Российской Федерации
+# RewriteRule ^gosplan.ru(.*)$  http://ref.economy.gov.ru$1 [R=302,L]
+
+# Федеральная служба по аккредитации
+# RewriteRule ^fsa.ru(.*)$  http://ref.fsa.gov.ru$1 [R=302,L]
+
+# Федеральная служба государственной регистрации, кадастра и картографии
+# RewriteRule ^rosreestr.ru(.*)$  http://ref.rosreestr.ru$1 [R=302,L]
+
+# Федеральная служба государственной статистики
+# RewriteRule ^rosstat.ru(.*)$  http://ref.gks.ru$1 [R=302,L]
+
+# Федеральная служба по интеллектуальной собственности
+# RewriteRule ^rospatent.ru(.*)$  http://ref.rupto.ru$1 [R=302,L]
+
+# Федеральное агентство по управлению государственным имуществом
+# RewriteRule ^rosim.ru(.*)$  http://ref.rosim.ru$1 [R=302,L]
+
+# Министерство энергетики Российской Федерации
+# RewriteRule ^minenergo.ru(.*)$  http://ref.minenergo.gov.ru$1 [R=302,L]
+
+# Федеральная антимонопольная служба
+# RewriteRule ^fas.ru(.*)$  http://ref.fas.gov.ru$1 [R=302,L]
+
+# Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+# RewriteRule ^rospotrebnadzor.ru(.*)$  http://ref.rospotrebnadzor.ru$1 [R=302,L]
+
+# Федеральная служба по экологическому, технологическому и атомному надзору
+# RewriteRule ^rostehnadzor.ru(.*)$  http://ref.gosnadzor.ru$1 [R=302,L]
+
+# Федеральное агентство по государственным резервам
+# RewriteRule ^rosreserv.ru(.*)$  http://ref.rosreserv.ru$1 [R=302,L]
+
+# Федеральное агентство научных организаций
+# RewriteRule ^fano.ru(.*)$  http://ref.fano.gov.ru$1 [R=302,L]
+
+# Федеральное агентство по делам национальностей
+# RewriteRule ^fadn.ru(.*)$  http://ref.fadn.gov.ru$1 [R=302,L]
